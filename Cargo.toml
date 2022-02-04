@@ -1,0 +1,9 @@
+[workspace]
+
+members= [
+  "zome/lib",
+  "zome/rpc",
+  "zome/storage",
+  "zome/storage_consts",
+  "zome/zome",
+]

@@ -1,0 +1,12 @@
+[package]
+name = "hc_zome_agent_registration_rpc"
+version = "0.1.0"
+authors = ["pospi <pospi@spadgos.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1"
+holo_hash = "0.0"
+
+[lib]
+crate-type = ["lib"]

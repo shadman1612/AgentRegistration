@@ -1,0 +1,16 @@
+[package]
+name = "hc_zome_agent_registration"
+version = "0.1.0"
+authors = ["pospi <pospi@spadgos.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1"
+hdk = "0.0"
+
+hc_zome_agent_registration_lib = { path = "../lib" }
+hc_zome_agent_registration_rpc = { path = "../rpc" }
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
